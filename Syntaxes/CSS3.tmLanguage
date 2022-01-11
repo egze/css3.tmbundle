@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>css</string>
+	</array>
+	<key>name</key>
+	<string>CSS3</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>#comment-block</string>
+		</dict>
+	</array>
+	<key>repository</key>
+	<dict>
+		<key>comment-block</key>
+		<dict>
+			<key>begin</key>
+			<string>/\*</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.begin.css</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\*/</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.end.css</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>comment.block.css</string>
+		</dict>
+	</dict>
+	<key>scopeName</key>
+	<string>source.css</string>
+	<key>uuid</key>
+	<string>29E2F579-F232-4928-B1DA-10AD27E1612E</string>
+</dict>
+</plist>
